@@ -41,7 +41,7 @@ async function run() {
 
     const rows =
           [ ["Mrugen", 3 ],
-            ["Darshi", 4 ] ];
+            ["Hari", 4 ] ];
 
     let result = await connection.executeMany(sql, rows);
 
