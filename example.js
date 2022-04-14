@@ -1,17 +1,9 @@
 const oracledb = require("oracledb");
 const express = require('express');
 
-// Initialize App
-const app = express();
+
 
 // Assign route
-app.use('/', (req, res, next) => {
-res.render('index.pug');
-});
-
-app.listen(5000, () => {
-console.log('App listening on port 5000');
-});
 //const app = oracledb();
 //import oracledb from "C:/Users/3716s/AppData/Local/Microsoft/TypeScript/4.6/node_modules/@types/oracledb/index";
 //import oracledb from "oracledb";
