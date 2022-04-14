@@ -1,0 +1,17 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo app",
+  "keywords": [
+    "myapp"
+  ],
+  "dependencies": {
+    "express": "^4.17.3",
+    "oracledb": "^5.1.0",
+    "pug": "^3.0.2"
+  },
+  "author": "You",
+  "license": "MIT",
+  "type": "commonjs"
+}
